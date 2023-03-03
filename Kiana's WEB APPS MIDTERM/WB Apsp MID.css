@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+    background-color: #14213D;
+}
+
+#search-section {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+}
+
+#search-section div {
+    display: flex;
+    gap: 20px;
+}
+
+#photo-selector {
+    background: rgb(243, 203, 203);
+    height: 100%;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #FCA311;
+    color: #fff;
+    border: none;
+    cursor: pointer; /* Using CSS cursor property with the value pointer to a hand poitner instead of defualt arrow pointer */
+}
+
+h1 {
+    color: #E5E5E5;
+    text-align: center;
+}
+
+h2 {
+    color: #FCA311;
+    text-align: left;
+}
+
+h3 {
+    color: #000;
+    text-align: left;
+}
+
+.white-text {
+    color: #fff;
+    text-align: left;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 25px;;
+}
+
+.grid img  {
+    width: 100%;
+}
+
+input {
+    padding: 10px 20px;
+    width: 300px;;
+}
